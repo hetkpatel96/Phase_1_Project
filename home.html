@@ -20,7 +20,7 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-
+    <link rel="stylesheet" type="text/css" href="home.css">
     <title>Hello, world!</title>
   </head>
   <body>
@@ -91,12 +91,27 @@
                   <p>
                     <span class="font-weight-bold">Reference :</span> Wikipedia
                   </p>
-                  </div class="d-flex justify-content-between left_div_button">
+                  <div class="d-flex justify-content-end left_div_button">
                     <div>
                     <button class="like" id="like">
-                      <i class="fas fa-thumbs-up"></i>Like
+                      <i class="far fa-thumbs-up"></i>Like
                     </button>
-                  </div>
+                    </div>
+                    <div class="pl-2">
+                    <button class="comment" onclick="div_comment('comment')">
+                      Comments <badge class="bg-white text-dark p-2">0</badge>
+                    </button>
+                    </div>
+                 </div>
+                 <div class="comments" id="comment">
+                    <div class="d-flex justify-content-start flex-row align-self-center card comment_card py-1">
+                        <div class="comment_text pl-3">
+                            <p class="blog_title">
+                                <span class="font-weight-bold">Alex - </span>October 7, 2020
+                            </p>
+                            <p>Good Content !!</p>
+                        </div>
+                    </div>
                  </div>
               </div>
             </div>
