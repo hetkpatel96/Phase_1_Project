@@ -41,3 +41,28 @@ a:hover {
 body {
   background: hsl(300, 69%, 61%);
 }
+
+.main_header_inner {
+  height: calc(100vh - 40vh);
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0)
+    ),
+    url("https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: var(--bg-size);
+}
+
+.main_heading {
+  font-size: 3rem;
+}
+
+.main_header_inner h3 {
+  font-size: 6.5rem;
+  font-weight: bold;
+  font-family: var(--title);
+  color: var(--main-color);
+  padding-bottom: 2rem;
+  position: relative;
+  transition: var(--eff);
+}
