@@ -19,6 +19,9 @@ html {
   font-size: 62.5%;
 }
 
+.row-margin-05 {
+  margin-top: 1em;
+}
 p,
 label,
 input::placeholder {
@@ -73,7 +76,7 @@ body {
   font-size: 3rem;
 }
 
-.blog_div .blog_title span {
+.blog_div .blog_title {
   font-weight: 400;
   font-size: 2.2rem;
   color: #1b262c;
@@ -88,6 +91,7 @@ body {
 }
 .blog_div .like {
   color: var(--btn-font-color);
+  border-width: 0.2rem;
   font-size: var(--btn-font);
   padding: 0.5rem 2rem;
   background-color: var(--btn-color);
@@ -98,6 +102,7 @@ body {
 
 .blog_div .comment {
   color: var(--btn-font-color);
+  border-width: 0.2rem;
   font-size: var(--btn-font);
   padding: 0.5rem 2rem;
   background-color: var(--btn-color);
@@ -115,4 +120,60 @@ body {
 .show {
   margin: 20px 0;
   display: block;
+}
+
+.right_tag_title {
+  background: #d0cecf;
+  color: #000;
+}
+
+.right_tag_title h2 {
+  font-size: 2.5rem;
+  padding-left: 2rem;
+}
+
+.right_sub_div {
+  background: #fff;
+}
+
+/* .right_sub_div .row {
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+.right_sub_div .row:last-child {
+  margin-bottom: 0;
+} */
+.right_sub_div {
+  padding: 2.5rem 2.5rem;
+}
+
+.right_tag_main {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* grid-template-columns: repeat(auto-fill, minmax(4rem, 8rem)); */
+  grid-gap: 1rem;
+  padding: 3.5rem 4.1rem;
+}
+
+.right_tag_main a {
+  font-size: 1.7rem;
+  line-height: 170%;
+  font-weight: lighter;
+  /* background: inherit; */
+  background: #1b262c;
+  color: #fff;
+}
+
+.right_subscribe_title {
+  background: #d0cecf;
+  color: #000;
+}
+.right_subscribe_title h2 {
+  font-size: 2.5rem;
+  padding-left: 2rem;
+}
+.right_sub_div #subscribeFormControl {
+  padding: 1.5rem 1rem;
+  margin: 1.5rem 0;
 }
