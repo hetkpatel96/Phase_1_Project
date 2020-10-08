@@ -5,10 +5,10 @@
   --main-color: #fff;
   --title: "Josefin Sans", sans-serif;
   --font-para: "David Libre", serif;
-  --btn-color: #ffffff;
-  --btn-font-color: #000;
+  --btn-color: #fff;
+  --btn-font-color: black;
   --btn-font: 1.5rem;
-  --eff: 0.3s all ease;
+  /*--eff: 0.3s all ease;*/
 }
 
 * {
@@ -65,4 +65,54 @@ body {
   padding-bottom: 2rem;
   position: relative;
   transition: var(--eff);
+}
+
+.blog_div h1 {
+  font-family: var(--title);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.blog_div .blog_title span {
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: #1b262c;
+}
+
+.blog_div p span {
+  color: #1b262c;
+}
+
+.left_div_button {
+  margin-top: 3rem;
+}
+.blog_div .like {
+  color: var(--btn-font-color);
+  font-size: var(--btn-font);
+  padding: 0.5rem 2rem;
+  background-color: var(--btn-color);
+  border-color: var(--btn-color);
+  font-family: var(--title);
+  font-weight: 800;
+}
+
+.blog_div .comment {
+  color: var(--btn-font-color);
+  font-size: var(--btn-font);
+  padding: 0.5rem 2rem;
+  background-color: var(--btn-color);
+  border-color: var(--btn-color);
+  font-family: var(--title);
+  font-weight: 800;
+}
+
+.comments {
+  margin: 2rem 0;
+  padding: 1rem 0;
+  display: none;
+}
+
+.show {
+  margin: 20px 0;
+  display: block;
 }

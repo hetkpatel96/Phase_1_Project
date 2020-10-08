@@ -136,5 +136,20 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript">
+    const div_comment = (com) => {
+            var res = document.getElementById(com);
+            console.log(res);
+            if (res.className == "comments") {
+                res.className = "show";
+                //res.style.WebkitTransition = 'all 0.3s ease';
+                // res.style.transition = 'all 0.3s ease';
+                // console.log(thapa_show);
+            } else if (res.className == 'show') {
+                // res.className = " ";
+                res.className = "comments";
+            }
+        }
+    </script>
   </body>
 </html>
