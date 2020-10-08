@@ -20,14 +20,19 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="home.css" />
     <title>Hello, world!</title>
   </head>
   <body>
     <!-- Header Start -->
     <header class="main-header">
       <div class="d-flex justify-content-center align-items-center py-3">
-        <h1 class="main_heading">Welcome to the <span class="text-capitalize bg-dark text-white py-2 px-3">World Of Blogs</span></h1>
+        <h1 class="main_heading">
+          Welcome to the
+          <span class="text-capitalize bg-dark text-white py-2 px-3"
+            >World Of Blogs</span
+          >
+        </h1>
       </div>
 
       <div
@@ -40,7 +45,7 @@
     <!-- Blog Container Start -->
     <div class="container">
       <div class="row">
-        <div class="col-xl-10 col-lg-10 col-md-11 col-11 mx-auto my-5">
+        <div class="col-xl-10 col-lg-10 col-md-12 col-11 mx-auto my-5">
           <div class="row gx-5 mx-sm-auto">
             <!-- Left side DIV -->
             <div class="col-lg-8 col-md-11 col-11 mx-auto">
@@ -93,165 +98,262 @@
                   </p>
                   <div class="d-flex justify-content-end left_div_button">
                     <div>
-                    <button class="like" id="like">
-                      <i class="far fa-thumbs-up"></i>Like
-                    </button>
+                      <button class="like" id="like">
+                        <i class="far fa-thumbs-up"></i>Like
+                      </button>
                     </div>
                     <div class="pl-2">
-                    <button class="comment" onclick="div_comment('comment')">
-                      Comments <badge class="bg-white text-dark p-2">0</badge>
-                    </button>
+                      <button class="comment" onclick="div_comment('comment')">
+                        Comments <badge class="bg-white text-dark p-2">1</badge>
+                      </button>
                     </div>
-                 </div>
-                 <div class="comments" id="comment">
-                    <div class="d-flex justify-content-start flex-row align-self-center card comment_card py-1">
-                        <div class="comment_text pl-3">
-                            <p class="blog_title">
-                                <span class="font-weight-bold">Alex - </span>October 7, 2020
-                            </p>
-                            <p>Good Content !!</p>
-                        </div>
-                    </div>
-                 </div>
-              </div>
-              <!-- Second Blog -->
-              <div class="col-12 card p-4 shadow blog_div ">
-                <div
-                  class="d-flex justify-content-center align-items-center flex-column py-3"
-                >
-                  <h1>Second Blog</h1>
-                  <p class="blog_title">
-                    <span class="font-weight-bold">Title Description,</span>
-                    October 7, 2020
-                  </p>
-                </div>
-                <figure class="image mb-4">
-                  <img
-                    src="pexels-markus-spiske-1089440.jpg"
-                    class="img-fluid shadow"
-                  />
-                </figure>
-                <p class="">
-                  <span class="font-weight-bold">Technology</span> is the sum
-                  of techniques, skills, methods, and processes used in the
-                  production of goods or services or in the accomplishment of
-                  objectives, such as scientific investigation. Technology can
-                  be the knowledge of techniques, processes, and the like, or
-                  it can be embedded in machines to allow for operation
-                  without detailed knowledge of their workings. Systems (e.g.
-                  machines) applying technology by taking an input, changing
-                  it according to the system's use, and then producing an
-                  outcome are referred to as
-                  <span class="font-weight-bold">technology systems</span> or
-                  <span class="font-weight-bold">technological systems</span>.
-                </p>
-                <p>
-                  Technology has many effects. It has helped develop more
-                  advanced economies (including today's global economy) and
-                  has allowed the rise of a leisure class. Many technological
-                  processes produce unwanted by-products known as pollution
-                  and deplete natural resources to the detriment of Earth's
-                  environment. Innovations have always influenced the values
-                  of a society and raised new questions in the ethics of
-                  technology. Examples include the rise of the notion of
-                  efficiency in terms of human productivity, and the
-                  challenges of bioethics.
-                </p>
-                <p>
-                  <span class="font-weight-bold">Reference :</span> Wikipedia
-                </p>
-                <div class="d-flex justify-content-end left_div_button">
-                  <div>
-                  <button class="like" id="like">
-                    <i class="far fa-thumbs-up"></i>Like
-                  </button>
                   </div>
-                  <div class="pl-2">
-                  <button class="comment" onclick="div_comment('comment')">
-                    Comments <badge class="bg-white text-dark p-2">0</badge>
-                  </button>
-                  </div>
-               </div>
-               <div class="comments" id="comment">
-                  <div class="d-flex justify-content-start flex-row align-self-center card comment_card py-1">
+                  <div class="comments" id="comment">
+                    <div
+                      class="d-flex justify-content-start flex-row align-self-center card comment_card py-3"
+                    >
                       <div class="comment_text pl-3">
-                          <p class="blog_title">
-                              <span class="font-weight-bold">Alex - </span>October 7, 2020
-                          </p>
-                          <p>Good Content !!</p>
-                      </div>
-                  </div>
-               </div>
-            </div>
-            <!-- Third Blog -->
-            <div class="col-12 card p-4 shadow blog_div">
-              <div
-                class="d-flex justify-content-center align-items-center flex-column py-3"
-              >
-                <h1>Third Blog</h1>
-                <p class="blog_title">
-                  <span class="font-weight-bold">Title Description,</span>
-                  October 10, 2020
-                </p>
-              </div>
-              <figure class="image mb-4">
-                <img
-                  src="pexels-markus-spiske-1089440.jpg"
-                  class="img-fluid shadow"
-                />
-              </figure>
-              <p class="">
-                <span class="font-weight-bold">Technology</span> is the sum
-                of techniques, skills, methods, and processes used in the
-                production of goods or services or in the accomplishment of
-                objectives, such as scientific investigation. Technology can
-                be the knowledge of techniques, processes, and the like, or
-                it can be embedded in machines to allow for operation
-                without detailed knowledge of their workings. Systems (e.g.
-                machines) applying technology by taking an input, changing
-                it according to the system's use, and then producing an
-                outcome are referred to as
-                <span class="font-weight-bold">technology systems</span> or
-                <span class="font-weight-bold">technological systems</span>.
-              </p>
-              <p>
-                Technology has many effects. It has helped develop more
-                advanced economies (including today's global economy) and
-                has allowed the rise of a leisure class. Many technological
-                processes produce unwanted by-products known as pollution
-                and deplete natural resources to the detriment of Earth's
-                environment. Innovations have always influenced the values
-                of a society and raised new questions in the ethics of
-                technology. Examples include the rise of the notion of
-                efficiency in terms of human productivity, and the
-                challenges of bioethics.
-              </p>
-              <p>
-                <span class="font-weight-bold">Reference :</span> Wikipedia
-              </p>
-              <div class="d-flex justify-content-end left_div_button">
-                <div>
-                <button class="like" id="like">
-                  <i class="far fa-thumbs-up"></i>Like
-                </button>
-                </div>
-                <div class="pl-2">
-                <button class="comment" onclick="div_comment('comment')">
-                  Comments <badge class="bg-white text-dark p-2">0</badge>
-                </button>
-                </div>
-             </div>
-             <div class="comments" id="comment">
-                <div class="d-flex justify-content-start flex-row align-self-center card comment_card py-1">
-                    <div class="comment_text pl-3">
                         <p class="blog_title">
-                            <span class="font-weight-bold">Alex - </span>October 7, 2020
+                          <span class="font-weight-bold">Alex - </span>October
+                          7, 2020
                         </p>
                         <p>Good Content !!</p>
+                      </div>
                     </div>
+                  </div>
                 </div>
-             </div>
-          </div>
+                <!-- Second Blog -->
+                <div class="col-12 card p-4 shadow blog_div">
+                  <div
+                    class="d-flex justify-content-center align-items-center flex-column py-3"
+                  >
+                    <h1>Second Blog</h1>
+                    <p class="blog_title">
+                      <span class="font-weight-bold">Title Description,</span>
+                      October 7, 2020
+                    </p>
+                  </div>
+                  <figure class="image mb-4">
+                    <img
+                      src="pexels-markus-spiske-1089440.jpg"
+                      class="img-fluid shadow"
+                    />
+                  </figure>
+                  <p class="">
+                    <span class="font-weight-bold">Technology</span> is the sum
+                    of techniques, skills, methods, and processes used in the
+                    production of goods or services or in the accomplishment of
+                    objectives, such as scientific investigation. Technology can
+                    be the knowledge of techniques, processes, and the like, or
+                    it can be embedded in machines to allow for operation
+                    without detailed knowledge of their workings. Systems (e.g.
+                    machines) applying technology by taking an input, changing
+                    it according to the system's use, and then producing an
+                    outcome are referred to as
+                    <span class="font-weight-bold">technology systems</span> or
+                    <span class="font-weight-bold">technological systems</span>.
+                  </p>
+                  <p>
+                    Technology has many effects. It has helped develop more
+                    advanced economies (including today's global economy) and
+                    has allowed the rise of a leisure class. Many technological
+                    processes produce unwanted by-products known as pollution
+                    and deplete natural resources to the detriment of Earth's
+                    environment. Innovations have always influenced the values
+                    of a society and raised new questions in the ethics of
+                    technology. Examples include the rise of the notion of
+                    efficiency in terms of human productivity, and the
+                    challenges of bioethics.
+                  </p>
+                  <p>
+                    <span class="font-weight-bold">Reference :</span> Wikipedia
+                  </p>
+                  <div class="d-flex justify-content-end left_div_button">
+                    <div>
+                      <button class="like" id="like">
+                        <i class="far fa-thumbs-up"></i>Like
+                      </button>
+                    </div>
+                    <div class="pl-2">
+                      <button class="comment" onclick="div_comment('comment1')">
+                        Comments <badge class="bg-white text-dark p-2">2</badge>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="comments" id="comment1">
+                    <div
+                      class="d-flex justify-content-start flex-row align-self-center card comment_card py-1"
+                    >
+                      <div class="comment_text pl-3">
+                        <p class="blog_title">
+                          <span class="font-weight-bold">Alex - </span>October
+                          7, 2020
+                        </p>
+                        <p>Good Content !!</p>
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex justify-content-start flex-row align-self-center card comment_card py-1"
+                    >
+                      <div class="comment_text pl-3">
+                        <p class="blog_title">
+                          <span class="font-weight-bold">Mathew - </span>October
+                          10, 2020
+                        </p>
+                        <p>I like the way it's written</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Third Blog -->
+                <div class="col-12 card p-4 shadow blog_div">
+                  <div
+                    class="d-flex justify-content-center align-items-center flex-column py-3"
+                  >
+                    <h1>Third Blog</h1>
+                    <p class="blog_title">
+                      <span class="font-weight-bold">Title Description,</span>
+                      October 10, 2020
+                    </p>
+                  </div>
+                  <figure class="image mb-4">
+                    <img
+                      src="pexels-markus-spiske-1089440.jpg"
+                      class="img-fluid shadow"
+                    />
+                  </figure>
+                  <p class="">
+                    <span class="font-weight-bold">Technology</span> is the sum
+                    of techniques, skills, methods, and processes used in the
+                    production of goods or services or in the accomplishment of
+                    objectives, such as scientific investigation. Technology can
+                    be the knowledge of techniques, processes, and the like, or
+                    it can be embedded in machines to allow for operation
+                    without detailed knowledge of their workings. Systems (e.g.
+                    machines) applying technology by taking an input, changing
+                    it according to the system's use, and then producing an
+                    outcome are referred to as
+                    <span class="font-weight-bold">technology systems</span> or
+                    <span class="font-weight-bold">technological systems</span>.
+                  </p>
+                  <p>
+                    Technology has many effects. It has helped develop more
+                    advanced economies (including today's global economy) and
+                    has allowed the rise of a leisure class. Many technological
+                    processes produce unwanted by-products known as pollution
+                    and deplete natural resources to the detriment of Earth's
+                    environment. Innovations have always influenced the values
+                    of a society and raised new questions in the ethics of
+                    technology. Examples include the rise of the notion of
+                    efficiency in terms of human productivity, and the
+                    challenges of bioethics.
+                  </p>
+                  <p>
+                    <span class="font-weight-bold">Reference :</span> Wikipedia
+                  </p>
+                  <div class="d-flex justify-content-end left_div_button">
+                    <div>
+                      <button class="like" id="like">
+                        <i class="far fa-thumbs-up"></i>Like
+                      </button>
+                    </div>
+                    <div class="pl-2">
+                      <button class="comment" onclick="div_comment('comment2')">
+                        Comments <badge class="bg-white text-dark p-2">3</badge>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="comments" id="comment2">
+                    <div
+                      class="d-flex justify-content-start flex-row align-self-center card comment_card py-1"
+                    >
+                      <div class="comment_text pl-3">
+                        <p class="blog_title">
+                          <span class="font-weight-bold">Alex - </span>October
+                          7, 2020
+                        </p>
+                        <p>Good Content !!</p>
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex justify-content-start flex-row align-self-center card comment_card py-1"
+                    >
+                      <div class="comment_text pl-3">
+                        <p class="blog_title">
+                          <span class="font-weight-bold">Sam William - </span
+                          >October 8, 2020
+                        </p>
+                        <p>Could be better</p>
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex justify-content-start flex-row align-self-center card comment_card py-1"
+                    >
+                      <div class="comment_text pl-3">
+                        <p class="blog_title">
+                          <span class="font-weight-bold">Jose - </span>October
+                          15, 2020
+                        </p>
+                        <p>Intresting</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Right Side Div -->
+            <div
+              class="col-lg-3 col-md-7 col-11 justify-content-end m-lg-0 m-auto"
+            >
+              <div class="row gy-5 right_div_blog">
+                <div class="right_div">
+                  <div class="right_tag_title py-4 pl-2">
+                    <h2>Tags</h2>
+                  </div>
+                  <div class="right_tag_main right_sub_div">
+                    <a href="#" class="badge shadow text-capitalize"> html </a>
+                    <a href="#" class="badge shadow text-capitalize"> css </a>
+                    <a href="#" class="badge shadow text-capitalize"> js </a>
+                    <a href="#" class="badge shadow text-capitalize"> react </a>
+                    <a href="#" class="badge shadow text-capitalize"> vue </a>
+                    <a href="#" class="badge shadow text-capitalize"> php </a>
+                    <a href="#" class="badge shadow text-capitalize">
+                      python
+                    </a>
+                    <a href="#" class="badge shadow text-capitalize">
+                      kotlin
+                    </a>
+                    <a href="#" class="badge shadow text-capitalize"> c++ </a>
+                    <a href="#" class="badge shadow text-capitalize"> java </a>
+                  </div>
+                </div>
+                <!--Subscribe-->
+                <div class="right_div">
+                  <div class="right_subscribe_title py-4 pl-2">
+                    <h2>Subscribe</h2>
+                  </div>
+                  <div class="right_sub_div">
+                    <form>
+                      <div class="mb-3">
+                        <label for="subscribeFormControl" class="form-label"
+                          >Get notifications for latest posts.</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control mt-2"
+                          id="subscribeFormControl"
+                          placeholder="name@example.com"
+                        />
+                      </div>
+                      <div class="col-12">
+                        <button class="subs_btn d-block" type="submit">
+                          Subscribe
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -275,19 +377,19 @@
       crossorigin="anonymous"
     ></script>
     <script type="text/javascript">
-    const div_comment = (com) => {
-            var res = document.getElementById(com);
-            console.log(res);
-            if (res.className == "comments") {
-                res.className = "show";
-                //res.style.WebkitTransition = 'all 0.3s ease';
-                // res.style.transition = 'all 0.3s ease';
-                // console.log(thapa_show);
-            } else if (res.className == 'show') {
-                // res.className = " ";
-                res.className = "comments";
-            }
+      const div_comment = (com) => {
+        var res = document.getElementById(com);
+        console.log(res);
+        if (res.className == "comments") {
+          res.className = "show";
+          //res.style.WebkitTransition = 'all 0.3s ease';
+          // res.style.transition = 'all 0.3s ease';
+          // console.log(thapa_show);
+        } else if (res.className == "show") {
+          // res.className = " ";
+          res.className = "comments";
         }
+      };
     </script>
   </body>
 </html>
