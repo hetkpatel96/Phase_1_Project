@@ -27,10 +27,10 @@ input::placeholder {
   color: #27292b;
 }
 
-figure img,
+/* figure img,
 .fab {
   transition: var(--eff);
-}
+} */
 
 a,
 a:hover {
