@@ -52,7 +52,7 @@ body {
       rgba(0, 0, 0, 0.5) 50%,
       rgba(0, 0, 0, 0)
     ),
-    url("https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    url(pexels-pixabay-267507.jpg);
   background-size: var(--bg-size);
 }
 
@@ -147,7 +147,11 @@ body {
 .right_sub_div {
   padding: 2.5rem 2.5rem;
 }
-
+.right_sub_div_subscribe {
+  background: #fff;
+  padding: 2.5rem 2.5rem;
+  width: 345px;
+}
 .right_tag_main {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -176,4 +180,18 @@ body {
 .right_sub_div #subscribeFormControl {
   padding: 1.5rem 1rem;
   margin: 1.5rem 0;
+}
+.subscribe_button {
+  padding-left: 0;
+  padding-top: 5px;
+}
+.right_div .subs_btn {
+  color: var(--btn-font-color);
+  border-width: 0.2rem;
+  font-size: var(--btn-font);
+  padding: 0.5rem 2rem;
+  background-color: var(--btn-color);
+  border-color: var(--btn-color);
+  font-family: var(--title);
+  font-weight: 800;
 }
