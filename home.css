@@ -49,6 +49,15 @@ a:hover {
   color: var(--main-color);
   padding-right: 10px;
 }
+.navLink_contact {
+  font-size: 3rem;
+  padding-left: 900px;
+}
+.navLink_contact a {
+  font-family: var(--title);
+  color: var(--main-color);
+  padding-right: 10px;
+}
 body {
   background: hsl(300, 69%, 61%);
 }
