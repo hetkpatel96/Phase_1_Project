@@ -212,3 +212,54 @@ body {
   font-family: var(--title);
   font-weight: 800;
 }
+
+.aboutme_section {
+  padding: 90px 0;
+}
+.aboutme_title {
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin: 0 0 39px;
+  padding: 0 0 11px;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+  font-family: var(--title);
+  font-weight: 800;
+}
+.aboutme_title::after {
+  background: #1b262c none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 54px;
+}
+.aboutme_text {
+  font-size: 2rem;
+  line-height: 170%;
+  color: white;
+  margin: 0 0 35px;
+  font-family: var(--title);
+  font-weight: 600;
+}
+
+a:hover,
+a:active {
+  color: #1b262c;
+  text-decoration: none;
+  outline: 0;
+}
+.aboutme_more {
+  border: 1px solid #1b262c;
+  border-radius: 25px;
+  color: #1b262c;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding: 7px 20px;
+  text-transform: uppercase;
+}
