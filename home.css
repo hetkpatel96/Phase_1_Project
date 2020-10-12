@@ -40,7 +40,15 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
-
+.navLink {
+  font-size: 3rem;
+  padding-left: 550px;
+}
+.navLink a {
+  font-family: var(--title);
+  color: var(--main-color);
+  padding-right: 10px;
+}
 body {
   background: hsl(300, 69%, 61%);
 }
